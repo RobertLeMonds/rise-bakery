@@ -253,3 +253,30 @@ p {
   width: 150px;
   height: 150px;
 }
+
+/* Start Media Queries */
+
+@media only screen and (max-width: 767px) {
+  body {
+  font-family: 'Lora';
+  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/cinnamonRolls-mobile.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  body {
+  font-family: 'Lora';
+  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/cinnamonRolls-mobile.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+}
